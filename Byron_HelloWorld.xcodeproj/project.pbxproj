@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92369BA62167A761004A1D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92369BA52167A761004A1D8F /* AppDelegate.swift */; };
+		92369BA82167A761004A1D8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92369BA72167A761004A1D8F /* ViewController.swift */; };
+		92369BAB2167A761004A1D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92369BA92167A761004A1D8F /* Main.storyboard */; };
+		92369BAD2167A763004A1D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92369BAC2167A763004A1D8F /* Assets.xcassets */; };
+		92369BB02167A763004A1D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92369BAE2167A763004A1D8F /* LaunchScreen.storyboard */; };
+		92369BBB2167A763004A1D8F /* Byron_HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92369BBA2167A763004A1D8F /* Byron_HelloWorldTests.swift */; };
+		92369BC62167A763004A1D8F /* Byron_HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92369BC52167A763004A1D8F /* Byron_HelloWorldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92369BB72167A763004A1D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92369B9A2167A761004A1D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92369BA12167A761004A1D8F;
+			remoteInfo = Byron_HelloWorld;
+		};
+		92369BC22167A763004A1D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92369B9A2167A761004A1D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92369BA12167A761004A1D8F;
+			remoteInfo = Byron_HelloWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92369BA22167A761004A1D8F /* Byron_HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Byron_HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92369BA52167A761004A1D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92369BA72167A761004A1D8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92369BAA2167A761004A1D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92369BAC2167A763004A1D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92369BAF2167A763004A1D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92369BB12167A763004A1D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92369BB62167A763004A1D8F /* Byron_HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Byron_HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92369BBA2167A763004A1D8F /* Byron_HelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Byron_HelloWorldTests.swift; sourceTree = "<group>"; };
+		92369BBC2167A763004A1D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92369BC12167A763004A1D8F /* Byron_HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Byron_HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92369BC52167A763004A1D8F /* Byron_HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Byron_HelloWorldUITests.swift; sourceTree = "<group>"; };
+		92369BC72167A763004A1D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92369B9F2167A761004A1D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92369BB32167A763004A1D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92369BBE2167A763004A1D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92369B992167A761004A1D8F = {
+			isa = PBXGroup;
+			children = (
+				92369BA42167A761004A1D8F /* Byron_HelloWorld */,
+				92369BB92167A763004A1D8F /* Byron_HelloWorldTests */,
+				92369BC42167A763004A1D8F /* Byron_HelloWorldUITests */,
+				92369BA32167A761004A1D8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92369BA32167A761004A1D8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92369BA22167A761004A1D8F /* Byron_HelloWorld.app */,
+				92369BB62167A763004A1D8F /* Byron_HelloWorldTests.xctest */,
+				92369BC12167A763004A1D8F /* Byron_HelloWorldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92369BA42167A761004A1D8F /* Byron_HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				92369BA52167A761004A1D8F /* AppDelegate.swift */,
+				92369BA72167A761004A1D8F /* ViewController.swift */,
+				92369BA92167A761004A1D8F /* Main.storyboard */,
+				92369BAC2167A763004A1D8F /* Assets.xcassets */,
+				92369BAE2167A763004A1D8F /* LaunchScreen.storyboard */,
+				92369BB12167A763004A1D8F /* Info.plist */,
+			);
+			path = Byron_HelloWorld;
+			sourceTree = "<group>";
+		};
+		92369BB92167A763004A1D8F /* Byron_HelloWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				92369BBA2167A763004A1D8F /* Byron_HelloWorldTests.swift */,
+				92369BBC2167A763004A1D8F /* Info.plist */,
+			);
+			path = Byron_HelloWorldTests;
+			sourceTree = "<group>";
+		};
+		92369BC42167A763004A1D8F /* Byron_HelloWorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92369BC52167A763004A1D8F /* Byron_HelloWorldUITests.swift */,
+				92369BC72167A763004A1D8F /* Info.plist */,
+			);
+			path = Byron_HelloWorldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92369BA12167A761004A1D8F /* Byron_HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92369BCA2167A763004A1D8F /* Build configuration list for PBXNativeTarget "Byron_HelloWorld" */;
+			buildPhases = (
+				92369B9E2167A761004A1D8F /* Sources */,
+				92369B9F2167A761004A1D8F /* Frameworks */,
+				92369BA02167A761004A1D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Byron_HelloWorld;
+			productName = Byron_HelloWorld;
+			productReference = 92369BA22167A761004A1D8F /* Byron_HelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92369BB52167A763004A1D8F /* Byron_HelloWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92369BCD2167A763004A1D8F /* Build configuration list for PBXNativeTarget "Byron_HelloWorldTests" */;
+			buildPhases = (
+				92369BB22167A763004A1D8F /* Sources */,
+				92369BB32167A763004A1D8F /* Frameworks */,
+				92369BB42167A763004A1D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92369BB82167A763004A1D8F /* PBXTargetDependency */,
+			);
+			name = Byron_HelloWorldTests;
+			productName = Byron_HelloWorldTests;
+			productReference = 92369BB62167A763004A1D8F /* Byron_HelloWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92369BC02167A763004A1D8F /* Byron_HelloWorldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92369BD02167A763004A1D8F /* Build configuration list for PBXNativeTarget "Byron_HelloWorldUITests" */;
+			buildPhases = (
+				92369BBD2167A763004A1D8F /* Sources */,
+				92369BBE2167A763004A1D8F /* Frameworks */,
+				92369BBF2167A763004A1D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92369BC32167A763004A1D8F /* PBXTargetDependency */,
+			);
+			name = Byron_HelloWorldUITests;
+			productName = Byron_HelloWorldUITests;
+			productReference = 92369BC12167A763004A1D8F /* Byron_HelloWorldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92369B9A2167A761004A1D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Byron Alfad";
+				TargetAttributes = {
+					92369BA12167A761004A1D8F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					92369BB52167A763004A1D8F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 92369BA12167A761004A1D8F;
+					};
+					92369BC02167A763004A1D8F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 92369BA12167A761004A1D8F;
+					};
+				};
+			};
+			buildConfigurationList = 92369B9D2167A761004A1D8F /* Build configuration list for PBXProject "Byron_HelloWorld" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92369B992167A761004A1D8F;
+			productRefGroup = 92369BA32167A761004A1D8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92369BA12167A761004A1D8F /* Byron_HelloWorld */,
+				92369BB52167A763004A1D8F /* Byron_HelloWorldTests */,
+				92369BC02167A763004A1D8F /* Byron_HelloWorldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92369BA02167A761004A1D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92369BB02167A763004A1D8F /* LaunchScreen.storyboard in Resources */,
+				92369BAD2167A763004A1D8F /* Assets.xcassets in Resources */,
+				92369BAB2167A761004A1D8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92369BB42167A763004A1D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92369BBF2167A763004A1D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92369B9E2167A761004A1D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92369BA82167A761004A1D8F /* ViewController.swift in Sources */,
+				92369BA62167A761004A1D8F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92369BB22167A763004A1D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92369BBB2167A763004A1D8F /* Byron_HelloWorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92369BBD2167A763004A1D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92369BC62167A763004A1D8F /* Byron_HelloWorldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92369BB82167A763004A1D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92369BA12167A761004A1D8F /* Byron_HelloWorld */;
+			targetProxy = 92369BB72167A763004A1D8F /* PBXContainerItemProxy */;
+		};
+		92369BC32167A763004A1D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92369BA12167A761004A1D8F /* Byron_HelloWorld */;
+			targetProxy = 92369BC22167A763004A1D8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92369BA92167A761004A1D8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92369BAA2167A761004A1D8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92369BAE2167A763004A1D8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92369BAF2167A763004A1D8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92369BC82167A763004A1D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92369BC92167A763004A1D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92369BCB2167A763004A1D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Byron_HelloWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Byron-Alfad.Byron-HelloWorld";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92369BCC2167A763004A1D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Byron_HelloWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Byron-Alfad.Byron-HelloWorld";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92369BCE2167A763004A1D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Byron_HelloWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Byron-Alfad.Byron-HelloWorldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Byron_HelloWorld.app/Byron_HelloWorld";
+			};
+			name = Debug;
+		};
+		92369BCF2167A763004A1D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Byron_HelloWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Byron-Alfad.Byron-HelloWorldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Byron_HelloWorld.app/Byron_HelloWorld";
+			};
+			name = Release;
+		};
+		92369BD12167A763004A1D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Byron_HelloWorldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Byron-Alfad.Byron-HelloWorldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Byron_HelloWorld;
+			};
+			name = Debug;
+		};
+		92369BD22167A763004A1D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Byron_HelloWorldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Byron-Alfad.Byron-HelloWorldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Byron_HelloWorld;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92369B9D2167A761004A1D8F /* Build configuration list for PBXProject "Byron_HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92369BC82167A763004A1D8F /* Debug */,
+				92369BC92167A763004A1D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92369BCA2167A763004A1D8F /* Build configuration list for PBXNativeTarget "Byron_HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92369BCB2167A763004A1D8F /* Debug */,
+				92369BCC2167A763004A1D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92369BCD2167A763004A1D8F /* Build configuration list for PBXNativeTarget "Byron_HelloWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92369BCE2167A763004A1D8F /* Debug */,
+				92369BCF2167A763004A1D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92369BD02167A763004A1D8F /* Build configuration list for PBXNativeTarget "Byron_HelloWorldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92369BD12167A763004A1D8F /* Debug */,
+				92369BD22167A763004A1D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92369B9A2167A761004A1D8F /* Project object */;
+}
